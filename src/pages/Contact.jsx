@@ -2,7 +2,7 @@ import { Box, Container, Paper, Stack, Typography } from "@mui/material";
 const Contact = () => {
     return (
         <>
-            <Container maxWidth="md">
+            <Container>
                 <Paper elevation={10}>
                     <Stack direction={"row"} sx={{
                         justifyContent:"center"

@@ -1,10 +1,10 @@
 import { Link } from "react-router";
-import { Box, Container, Paper, Typography,Stack } from "@mui/material";
+import { Box, Container, Paper,Stack } from "@mui/material";
 
 function NotFound() {
     return (
         <>
-            <Container maxWidth="md">
+            <Container>
                 <Paper elevation={10}>
                     <Stack direction={"row"} sx={{
                         justifyContent: "center"

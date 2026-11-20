@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router"
 import Navbar from "./pages/Navbar"
 import Home from "./pages/Home"
-import About from "./pages/About"
+import EmployeeDetails from "./pages/EmployeeDetails"
 import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
-import Product from "./pages/Product"
+import Inbox from "./pages/Inbox"
 
 const App = ()=>{
   return(
@@ -12,9 +12,9 @@ const App = ()=>{
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
+        <Route path="/employeedetails" element={<EmployeeDetails/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/product" element={<Product/>}/>
+        <Route path="/inbox" element={<Inbox/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
