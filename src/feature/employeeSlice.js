@@ -13,8 +13,11 @@ const employeeSlice = createSlice({
        state.employeeData = state.employeeData.filter((user) => {
         return user.id !== action.payload;
       });
+    },
+    setUpdateEmployeeData:(state,action)=>{
+
     }
   },
 });
-export const { setEmployeeData,setRemoveEmployeeData } = employeeSlice.actions;
+export const { setEmployeeData,setRemoveEmployeeData,setUpdateEmployeeData } = employeeSlice.actions;
 export default employeeSlice.reducer;
